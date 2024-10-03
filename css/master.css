@@ -446,6 +446,9 @@ h1.header::after{
     padding-bottom: 30px;
   }
 }
+.about .about-info{
+overflow: hidden;
+}
 .about .about-info .my-profession{
   font-size: 25px;
   margin-bottom: 15px;
