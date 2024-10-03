@@ -447,7 +447,7 @@ h1.header::after{
   }
 }
 .about .about-info{
-overflow: hidden;
+  overflow: hidden;
 }
 .about .about-info .my-profession{
   font-size: 25px;
