@@ -291,7 +291,7 @@ colorBtn.onclick = function (){
 /* End Open Color */
 
 /* Start Mode */
-let lightMode = true;
+let lightMode = false;
 
 /* Start Local Storage Mode */
 let localmode = localStorage.getItem("localmod");
@@ -302,6 +302,8 @@ if(localmode !== null){
   }else{
     lightModeProperties();
   }
+}else{
+  darkModeProperties();
 }
 /* End Local Storage Mode */
 
